@@ -6,7 +6,7 @@
 body {
   color: #2b2c48;
   font-family: "Jost", sans-serif;
-  background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+  background-image: url(https://i.ibb.co/SXpMSfS/IMG-20250117-003113-875.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  max-width: 440px;
+  max-width: 700px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -33,18 +33,18 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 550px;
+  height: 770px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
 }
 
 .card[data-state="#contact"] {
-  height: 430px;
+  height: 770px;
 }
 
 .card[data-state="#experience"] {
-  height: 550px;
+  height: 770px;
 }
 
 .card.is-active .card-header {
