@@ -18,7 +18,7 @@ body {
 }
 
 .card {
-  max-width: 700px;
+  max-width: 1000px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -33,22 +33,22 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 770px;
+  height: 1000px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
 }
 
 .card[data-state="#contact"] {
-  height: 770px;
+  height: 1000px;
 }
 
 .card[data-state="#experience"] {
-  height: 770px;
+  height: 1000px;
 }
 
 .card.is-active .card-header {
-  height: 80px;
+  height: 200px;
 }
 .card.is-active .card-cover {
   height: 100px;
@@ -63,12 +63,12 @@ body {
 }
 .card.is-active .card-fullname,
 .card.is-active .card-jobtitle {
-  left: 86px;
+  left: 200px;
   transform: none;
 }
 .card.is-active .card-fullname {
-  bottom: 18px;
-  font-size: 19px;
+  bottom: 200px;
+  font-size: 190px;
 }
 .card.is-active .card-jobtitle {
   bottom: 16px;
@@ -173,8 +173,8 @@ body {
 .card-social {
   display: flex;
   align-items: center;
-  padding: 0 20px;
-  margin-bottom: 30px;
+  padding: 0 150px;
+  margin-bottom: 150px;
 }
 .card-social svg {
   fill: #a5b5ce;
